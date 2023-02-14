@@ -4,8 +4,11 @@ __Less Command in Linux__
 
 __Command Line Options__ 
 > -jn or --jump-target=n
+
 > -n or --line-numbers
+
 > -bn or --buffers=n
+
 > -Dxcolor or --color=xcolor
 
 __-jn or --jump-target=n__
