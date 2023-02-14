@@ -15,7 +15,7 @@ __-jn or --jump-target=n__
 ——————————————————————————————————————————————————————————————————
 > setting 8 as the value for n displays the text file starting at the sixth line. 
 ——————————————————————————————————————————————————————————————————
-``` -j6 written_2/travel_guides/berlitz1/HandRIbiza.txt ```
+>``` less -j6 written_2/travel_guides/berlitz1/HandRIbiza.txt ```
 ``` 
         Recommended Hotels
         The establishments listed below offer a cross-section of
@@ -26,7 +26,7 @@ __-jn or --jump-target=n__
 ——————————————————————————————————————————————————————————————————
 > setting -2 as the value for n displays the text file starting at the second last line. 
 ——————————————————————————————————————————————————————————————————
-``` -j-2 written_2/travel_guides/berlitz1/HandRIbiza.txt ```
+>``` less -j-2 written_2/travel_guides/berlitz1/HandRIbiza.txt ```
 ```     
         Recommended Hotels
         The establishments listed below offer a cross-section of
@@ -46,7 +46,7 @@ __-N or --LINE-NUMBERS__
 ——————————————————————————————————————————————————————————————————
 > using -N to display the line numbers of a text file
 ——————————————————————————————————————————————————————————————————
-``` less -N written_2/travel_guides/berlitz1/HandRHongKong.txt ```
+>``` less -N written_2/travel_guides/berlitz1/HandRHongKong.txt ```
 ``` 
       1 
       2   
@@ -72,7 +72,7 @@ __-N or --LINE-NUMBERS__
 ——————————————————————————————————————————————————————————————————
 > using -N to display the line numbers of a text file in combination with the -jn option
 ——————————————————————————————————————————————————————————————————
-``` less -N -j10 written_2/travel_guides/berlitz1/HandRHongKong.txt ```
+>``` less -N -j10 written_2/travel_guides/berlitz1/HandRHongKong.txt ```
 ``` 11         have excellent business services and conference facilities; many have
      12         shopping malls.
      13         Reservations are strongly recommended, particularly in
